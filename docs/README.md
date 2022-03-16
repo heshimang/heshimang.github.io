@@ -15,6 +15,36 @@ actions:
 #   - title: 高性能
 #     details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
 ---
+
+
+<!-- ::: danger STOP
+危险区域，禁止通行
+::: -->
+
+::: details 点击查看代码
+```js
+console.log('你好，VuePress！')
+```
+:::
+
+<CodeGroup>
+  <CodeGroupItem title="YARN">
+
+```bash:no-line-numbers
+yarn
+```
+
+  </CodeGroupItem>
+
+  <CodeGroupItem title="NPM" active>
+
+```bash:no-line-numbers
+npm install
+```
+
+  </CodeGroupItem>
+</CodeGroup>
+
 ## 许可证
 [MIT](https://github.com/heshimang/heshimang.github.io/blob/main/LICENSE)
 

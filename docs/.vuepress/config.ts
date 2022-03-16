@@ -21,6 +21,33 @@ export default defineUserConfig<DefaultThemeOptions>({
       { text: '前端架构与工程', link: '/framework/' },
       { text: '生活所思', link: '/life/' },
       { text: 'GitHub', link: 'https://github.com/heshimang' }
-    ]
+    ],
+    sidebar:{}
   },
+  plugins: [
+    [
+      '@vuepress/docsearch', {
+        apiKey: '1',
+        indexName: '',
+        locales: {
+          '/': {
+            placeholder: 'Search Documentation',
+            translations: {
+              button: {
+                buttonText: 'Search Documentation',
+              },
+            },
+          },
+          '/zh/': {
+            placeholder: '搜索文档',
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+              },
+            },
+          },
+        },
+      }
+    ]
+  ]
 }) 
