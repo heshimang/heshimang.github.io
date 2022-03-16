@@ -1,11 +1,12 @@
 ---
 home: true
-heroImage: /images/logo-small.png
-heroText: 前端小贺的博客
-tagline: 力争做一个传道受业解惑的智者，专注于前端，但不限于前端，一点一滴都是进步
+heroImage: /images/logo.png
+heroImageDark: /images/logo-dart-default.png
+heroText: 请相信你的所有努力终将被世人发现！
+tagline: 力争做一个专注于前端行业传道受业解惑的智者
 actions:
   - text: 马上进入 →
-    link: /life/index.md
+    link: /Vue/index.md
 # features:
 #   - title: 简洁至上
 #     details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
