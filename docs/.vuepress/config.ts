@@ -16,13 +16,61 @@ export default defineUserConfig<DefaultThemeOptions>({
     logoDark: '/images/logo-dart-default.png',
     navbar: [
       { text: '首页', link: '/' },
-      { text: 'JavaScript', link: '/javascript/' },
-      { text: 'Vue', link: '/vue/' },
-      { text: '前端架构与工程', link: '/framework/' },
+      {
+        text: '前端基本素养', link: '/frontbasic/', activeMatch: '^/frontbasic/', children: [
+          {
+            text: 'HTML',
+            link: '/frontbasic/html/',
+          },
+          {
+            text: 'CSS',
+            link: '/frontbasic/css/',
+          },
+          {
+            text: 'JavaScript',
+            link: '/frontbasic/javascript/',
+          },
+        ]
+      },
+      {
+        text: '前端进阶', link: '/frontadvanced/', children: [
+          {
+            text: 'Vue',
+            link: '/frontadvanced/vue/',
+          },
+          {
+            text: 'Debug',
+            link: '/frontadvanced/debug/',
+          },
+          {
+            text: '前端架构思索',
+            link: '/frontadvanced/framework/',
+          },
+        ]
+      },
       { text: '生活所思', link: '/life/' },
       { text: 'GitHub', link: 'https://github.com/heshimang' }
     ],
-    sidebar:{}
+    sidebar: {
+      '/frontbasic/html/': [
+        {
+          text: 'HTML'
+        },
+      ],
+      '/frontbasic/css/': [
+        {
+          text: 'CSS'
+        },
+      ],
+      '/frontadvanced/debug/': [
+        {
+          text: 'Npm',
+          children: [
+            '/frontadvanced/debug/npmerror.md'
+          ]
+        },
+      ],
+    },
   },
   plugins: [
     [
