@@ -49,6 +49,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         ]
       },
       { text: '生活所思', link: '/life/' },
+      { text: '日记', link: '/diary/' },
       { text: 'GitHub', link: 'https://github.com/heshimang' }
     ],
     sidebar: {
