@@ -91,9 +91,7 @@ script returned exit code 1
 
 直到 3 月 15 日 ，这个模块几乎没有下载。然而，当它的 npm 维护者将此模块作为依赖项添加 `node-ipc`的`9.2.2`版本，并在`node-ipc`包被调用时运行它。`peacenotwar`这个包会在用户的桌面目录中写入`WITH-LOVE-FROM-AMERICA.txt`文件。
 
-下面的图片是`peacenotwar`的下载数量。大家可以看出是最最后的下载量是4万多条，还是很多的。
-
-![image-20220318222556044](/Users/hsm/Documents/image-20220318.png)
+`peacenotwar`的下载数量在`9.1.6`时下载量是43142条，还是很多的
 
 下面是`Vue CLI`对`node-ipc`包的依赖
 
