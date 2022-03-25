@@ -1,0 +1,1 @@
+const e={key:"v-7a372905",path:"/diary/",title:"\u65E5\u8BB0",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1648221097e3,contributors:[{name:"heshimang",email:"hsm15031585502@163.com",commits:2}]},filePathRelative:"diary/index.md"};export{e as data};

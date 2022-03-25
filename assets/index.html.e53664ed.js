@@ -1,0 +1,1 @@
+const t={key:"v-c203699e",path:"/frontbasic/javascript/",title:"JavaScript\u76F8\u5173",lang:"en-US",frontmatter:{date:"2022-3-22"},excerpt:"",headers:[],git:{updatedTime:164799729e4,contributors:[{name:"heshimang",email:"hsm15031585502@163.com",commits:2}]},filePathRelative:"frontbasic/javascript/index.md"};export{t as data};

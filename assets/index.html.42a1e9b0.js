@@ -1,0 +1,1 @@
+const e={key:"v-711c3d2e",path:"/frontadvanced/framework/",title:"\u524D\u7AEF\u67B6\u6784\u548C\u56E2\u961F\u5EFA\u8BBE\u601D\u7D22",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1648219771e3,contributors:[{name:"heshimang",email:"hsm15031585502@163.com",commits:4}]},filePathRelative:"frontadvanced/framework/index.md"};export{e as data};
