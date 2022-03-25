@@ -1,5 +1,6 @@
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
+import { Children } from 'react'
 
 export default defineUserConfig<DefaultThemeOptions>({
   // 站点配置
@@ -53,6 +54,15 @@ export default defineUserConfig<DefaultThemeOptions>({
       { text: 'GitHub', link: 'https://github.com/heshimang' }
     ],
     sidebar: {
+      '/diary/': [
+        {
+          text: '日记',
+          children: [
+            '/diary/2022-03-22.md',
+            '/diary/2022-03-25.md',
+          ]
+        }
+      ],
       '/frontbasic/html/': [
         {
           text: 'HTML'
@@ -88,7 +98,6 @@ export default defineUserConfig<DefaultThemeOptions>({
           ]
         },
       ],
-      
     },
   },
   plugins: [
