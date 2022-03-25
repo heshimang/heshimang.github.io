@@ -200,6 +200,9 @@ script returned exit code 1
 ## 参考
 
 https://snyk.io/blog/peacenotwar-malicious-npm-node-ipc-package-vulnerability/
+
 https://github.com/RIAEvangelist/node-ipc/pull/264
+
 https://github.com/RIAEvangelist/peacenotwar
+
 https://snyk.io/blog/ten-npm-security-best-practices/

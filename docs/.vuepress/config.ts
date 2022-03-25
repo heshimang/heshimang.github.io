@@ -63,14 +63,32 @@ export default defineUserConfig<DefaultThemeOptions>({
           text: 'CSS'
         },
       ],
+      '/frontbasic/javascript/': [
+        {
+          text: 'Function',
+          children: [
+            '/frontbasic/javascript/2022-03-23.md'
+          ]
+        },
+      ],
       '/frontadvanced/debug/': [
         {
           text: 'Npm',
           children: [
-            '/frontadvanced/debug/npmerror.md'
+            '/frontadvanced/debug/npmerror.md',
+            '/frontadvanced/debug/uninstallvuecli.md'
           ]
         },
       ],
+      '/frontadvanced/framework/': [
+        {
+          text: '代码规范',
+          children: [
+            '/frontadvanced/framework/editorconfig.md'
+          ]
+        },
+      ],
+      
     },
   },
   plugins: [
