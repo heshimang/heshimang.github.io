@@ -6,8 +6,8 @@ export default defineUserConfig<DefaultThemeOptions>({
   // 站点配置
   lang: 'en-US',
   base: '/',
-  title: '前端小贺的博客',
-  description: '前端小贺，力争做一个传道受业解惑的智者，专注于前端，但不限于前端，前端，贺士忙',
+  title: '程序员随心的博客',
+  description: '程序员随心，力争做一个传道受业解惑的人，专注于互联网，但不限于互联网，互联网，贺士忙',
   head: [['link', { rel: 'icon', href: '/images/logo-dart-default.png' }]],
 
   // 主题和它的配置
@@ -18,7 +18,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     navbar: [
       { text: '首页', link: '/' },
       {
-        text: '前端基本素养', link: '/frontbasic/', activeMatch: '^/frontbasic/', children: [
+        text: '互联网基本素养', link: '/frontbasic/', activeMatch: '^/frontbasic/', children: [
           {
             text: 'HTML',
             link: '/frontbasic/html/',
@@ -34,7 +34,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         ]
       },
       {
-        text: '前端进阶', link: '/frontadvanced/', children: [
+        text: '互联网进阶', link: '/frontadvanced/', children: [
           {
             text: 'Vue',
             link: '/frontadvanced/vue/',
@@ -44,7 +44,7 @@ export default defineUserConfig<DefaultThemeOptions>({
             link: '/frontadvanced/debug/',
           },
           {
-            text: '前端架构思索',
+            text: '互联网架构思索',
             link: '/frontadvanced/framework/',
           },
         ]
